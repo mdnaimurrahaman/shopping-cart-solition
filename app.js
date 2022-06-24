@@ -85,7 +85,7 @@ function caseMinus() {
 
 
 
-/* //--------- Phone increased discreased events---------------//
+//--------- Phone increased discreased events---------------//
 function phonePlus(){
   let phoneInput = document.getElementById('phone-number');
   let phoneNumber = phoneInput.value;
@@ -99,4 +99,4 @@ function phoneMinus(){
     phoneInput.value = parseInt (phoneNumber)-1 ;
   }
 }
- */
+ 
