@@ -31,7 +31,9 @@ function calculateTotal (){
  const totalPrice = tex + subTotal ;
 
 // ----------- update on the html-----------------------//
-
+ document.getElementById('sub-total').innerText = subTotal;
+ document.getElementById ('tax-amount').innerText = tex ;
+ document.getElementById ('total-price').innerText = totalPrice ;
 }
 
 
