@@ -31,7 +31,7 @@ function calculateTotal (){
  const totalPrice = tex + subTotal ;
 
 // ----------- update on the html-----------------------//
- 
+
 }
 
 
